@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parejas de Emoji</title>
+    <link rel="shortcut icon" href="./css/resourcers.css/tree.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <!--Este script añade el SweetAlert-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+
+   <header>
+
+    <h1><img src="./css/resourcers.css/Titulo.png" alt="Logo_juego" class="img"></h1>
+
+  <div class="container">
+      
+      
+    <div class="account">
+     
+       <div id='points' class='foot'>
+         0
+       </div>
+
+    <div id='attempts' class='foot'>
+      
+     </div>
+
+    </div>
+
+    <div class='new-game foot' onclick='generateBoard()'>
+       Nueva Partida
+    </div>
+
+</div>
+
+   </header>
+
+   <br/>
+   
+    <div id='board'>
+
+      <!--Aquí va el código del tablero a través del Dom insertando las cartas-->
+
+    </div>
+
+   <br/>
+
+  <script src="./src/script.js"></script>
+
+</body>
+
+</html>
