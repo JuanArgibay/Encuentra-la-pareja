@@ -167,7 +167,7 @@ const emojiBase = ['🥝', '🍎', '🍍', '🍌', '🍓', '🍈', '🥑', '🍐
                     Swal.fire({
                         icon: 'success',
                         title:'Has ganado!!!!!',
-                        text: `Has conseguido ${points} puntos`,
+                        text: `Has conseguido ${points + attempts} puntos`,
                         confirmButtonText: 'Ok',
                      });
                  };
