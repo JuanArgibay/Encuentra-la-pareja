@@ -22,3 +22,5 @@ parejas estén reveladas.
 - El juego lleva la cuenta de los intentos realizados.
 
 - El resultado final es el número de aciertos (máximo 8) mas el numero de intentos restantes (maximo 8).
+
+### Desplegado en https://encuentralapareja.vercel.app/
