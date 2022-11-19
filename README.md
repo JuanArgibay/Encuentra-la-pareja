@@ -2,7 +2,7 @@
 
 Parejas de Emoji
 
-Juego memoria donde se muestran 16 parejas de cartas tapadas que se pueden destapar de dos en dos hasta revelar todas.
+Juego memoria donde se muestran 8 parejas de cartas tapadas que se pueden destapar de dos en dos hasta revelar todas.
 
 ## Descripción
 
@@ -22,5 +22,3 @@ parejas estén reveladas.
 - El juego lleva la cuenta de los intentos realizados.
 
 - El resultado final es el número de aciertos (máximo 8) mas el numero de intentos restantes (maximo 8).
-
-### Desplegado en https://encuentralapareja.vercel.app/
