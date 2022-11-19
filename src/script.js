@@ -29,6 +29,21 @@ const emojiBase = ['🥝', '🍎', '🍍', '🍌', '🍓', '🍈', '🥑', '🍐
             };
         };
 
+    //  Función que arranca la aplicación con una ventana explicativa.
+        const start = () => {
+            
+            Swal.fire({
+                icon: 'info',
+                title:'¿Como gano puntos?',
+                html: `Cada vez que haciertes una pareja, recivirás 1 punto.<br> Con cada intento restante obtendrás 1 punto.`,
+                confirmButtonText: 'Adelante',
+            }).then(function(isConfirm){
+                if(isConfirm) generateBoard();
+            })
+         
+        };
+        
+
       // Creamos una función para generar el tablero 
         function generateBoard() {
 
@@ -139,7 +154,7 @@ const emojiBase = ['🥝', '🍎', '🍍', '🍌', '🍓', '🍈', '🥑', '🍐
                         // Ventana emergente de alerta que muestra: 
                         Swal.fire({
                             icon: 'error',
-                            title: 'Epic Fail!!!',
+                            title: 'Te has quedado sin intentos',
                             width: 600,
                             height: 600,
                             text:`Has conseguido ${points} puntos`,
@@ -196,5 +211,7 @@ function wonGame() {
     return true;
 }
 
-// Ejecutamos la función principal 
-generateBoard();
+// Lanzamos la aplicación
+start();
+
+

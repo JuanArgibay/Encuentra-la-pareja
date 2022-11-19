@@ -2,7 +2,7 @@
 
 Parejas de Emoji
 
-Juego memoria donde se muestran 16 parejas de cartas tapadas que se pueden destapar de dos en dos hasta revelar todas.
+Juego memoria donde se muestran 8 parejas de cartas tapadas que se pueden destapar de dos en dos hasta revelar todas.
 
 ## Descripción
 
