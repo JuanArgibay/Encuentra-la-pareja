@@ -34,8 +34,8 @@ const emojiBase = ['🥝', '🍎', '🍍', '🍌', '🍓', '🍈', '🥑', '🍐
             
             Swal.fire({
                 icon: 'info',
-                title:'¿Como gano puntos?',
-                html: `Cada vez que haciertes una pareja, recivirás 1 punto.<br> Con cada intento restante obtendrás 1 punto.`,
+                title:'¿Cómo gano puntos?',
+                html: `Cada vez que aciertes una pareja, recibirás 1 punto.<br> Con cada intento restante obtendrás 1 punto.`,
                 confirmButtonText: 'Adelante',
             }).then(function(isConfirm){
                 if(isConfirm) generateBoard();
